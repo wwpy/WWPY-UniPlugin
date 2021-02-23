@@ -1,0 +1,28 @@
+<template>
+	<view>
+		<ww-ballmove style="width: 414px;height: 800px;"></ww-ballmove>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				screenWidth: 0,
+				screenHeight: 0
+			}
+		},
+		onLoad() {
+			const res = uni.getSystemInfoSync()
+			this.screenWidth = res.screenWidth
+			this.screenHeight = res.screenHeight
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+
+</style>

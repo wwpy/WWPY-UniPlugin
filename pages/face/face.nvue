@@ -1,0 +1,22 @@
+<template>
+	<view>
+		<ww-face style="width: 414px;height: 800px;background-color: #007AFF;"></ww-face>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+
+</style>
